@@ -15,7 +15,7 @@ interface ExcuseFormModalProps {
 }
 
 const ExcuseFormModal: React.FC<ExcuseFormModalProps> = ({ open, onClose, onAddExcuse }) => {
-  const [httpCode, setHttpCode] = useState<number>(0); // Initialize with 0 or any default value
+  const [httpCode, setHttpCode] = useState<number>(0);
   const [tag, setTag] = useState<string>('');
   const [message, setMessage] = useState<string>('');
 

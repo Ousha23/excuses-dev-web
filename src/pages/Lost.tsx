@@ -14,7 +14,7 @@ const Lost: React.FC = () => {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>I’m lost</h1>
+      <h1>Je suis perdu !!</h1>
       <img src="https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif" alt="Lost gif" />
     </div>
   );

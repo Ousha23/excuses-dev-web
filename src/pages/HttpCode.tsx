@@ -26,7 +26,7 @@ const HttpCode: React.FC = () => {
     };
 
     fetchMessage();
-  }, [http_code]);
+  }, [ http_code, navigate ]);
 
   useEffect(() => {
     if (!loading && message === null ){

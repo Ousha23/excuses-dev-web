@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/excuses',
     createProxyMiddleware({
-      target: 'http://localhost:3000', // Le serveur backend à cibler
+      target: 'http://localhost:3000',
       changeOrigin: true,
     })
   );
