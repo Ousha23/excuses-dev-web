@@ -1,3 +1,7 @@
+## Summary
+
+Front : add and get random sentences.
+
 ## Installation
 
 ```
